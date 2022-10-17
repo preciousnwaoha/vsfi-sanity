@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --check-files --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
 
 PATH: 
   C:\Users\hp\AppData\Roaming\npm\node_modules\vendor;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\msys64\mingw64\bin;C:\Program Files\Inkscape\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition with Anaconda plugin 2019.3.3\bin;;C:\Program Files\heroku\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.npmjs.org/@sanity/base/-/base-2.34.0.tgz: ESOCKETTIMEDOUT
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.29.3.tgz: ESOCKETTIMEDOUT
       at ClientRequest.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:135945:19)
       at Object.onceWrapper (node:events:509:28)
       at ClientRequest.emit (node:events:390:28)
