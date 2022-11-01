@@ -26,6 +26,11 @@ export default {
         },
       },
       {
+        name: 'venue',
+        title: 'venue',
+        type: 'blockContent',
+      },
+      {
         name: 'publishedAt',
         title: 'Published at',
         type: 'datetime',
@@ -40,7 +45,7 @@ export default {
     preview: {
       select: {
         title: 'title',
-        publishedAt: 'publishedAt',
+        // publishedAt: 'publishedAt',
         media: 'mainImage',
       },
     },

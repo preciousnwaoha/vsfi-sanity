@@ -26,6 +26,11 @@ export default {
         },
       },
       {
+        name: 'venue',
+        title: 'venue',
+        type: 'blockContent',
+      },
+      {
         name: 'views',
         title: 'Views',
         type: 'number',
@@ -41,11 +46,14 @@ export default {
         type: 'blockContent',
       },
     ],
+
+    initialValue: () => ( {
+      views: 0,
+    }),
   
     preview: {
       select: {
         title: 'title',
-        publishedAt: 'publishedAt',
         media: 'mainImage',
       },
     },

@@ -11,7 +11,6 @@ import post from './post'
 import author from './author'
 
 import event from './event'
-import navItem from './navItem'
 import meeting from './meeting'
 import announcement from './announcement'
 
@@ -31,7 +30,6 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     event,
-navItem,
 meeting,
 announcement,
   ]),

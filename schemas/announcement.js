@@ -18,11 +18,6 @@ export default {
         },
       },
       {
-        name: 'views',
-        title: 'Views',
-        type: 'number',
-      },
-      {
         name: 'mainImage',
         title: 'Main image',
         type: 'image',
@@ -41,6 +36,9 @@ export default {
         type: 'blockContent',
       },
     ],
+    initialValue: () => ( {
+      publishedAt: (new Date()).toISOString()
+    }),
   
     preview: {
       select: {

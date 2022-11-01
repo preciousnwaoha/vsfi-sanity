@@ -44,7 +44,7 @@ export default {
     },
     {
       name: 'publishedAt',
-      title: 'Published at',
+      title: 'published at',
       type: 'datetime',
     },
     {
@@ -53,6 +53,11 @@ export default {
       type: 'blockContent',
     },
   ],
+
+  initialValue: () => ( {
+    views: 0,
+    publishedAt: (new Date()).toISOString()
+  }),
 
   preview: {
     select: {
